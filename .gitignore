@@ -1,0 +1,10 @@
+*~
+.DS_Store
+.idea/
+__pycache__
+logs
+lightning_logs
+ckpt
+nohup.out
+train_a.out
+train_b.out

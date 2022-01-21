@@ -1,4 +1,5 @@
 ## Abstract
+We build a temporal model combining sequence and graph components to capture the long-term interaction of nodes and the interaction information between k-hop neighbor nodes, respectively. By transforming continuous time into discrete time-bins, we employ the Bayesian formula to predict the probability of interaction between nodes within each time period.
 
 ## Requirements
   ```
@@ -57,7 +58,7 @@ Here is a train script.
   $ python train.py config_a
   $ python trian.py config_b
   ```
-After training your model, the checkpoints will save in 'lightning_logs/logs.csv/default' directory.
+After training model, the checkpoints will be saved in 'lightning_logs/logs.csv/default' directory.
 
 ## Validation
 Here is a script to verify the effect of the model.
